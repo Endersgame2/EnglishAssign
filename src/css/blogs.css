@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding: 10;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+h1 {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 70px;
+}
+
+p{
+  line-height: 25px;
+}
+
+img{
+ width: 20%;
+ position: absolute;
+ right: 3.5%;
+ opacity: 0.9;
+ border-radius: 10px;
+}
+
+table{
+  width: 50%;
+  text-align: left;
+  border-color: white;
+  background-color: black;
+}
+tr:hover {background-color: black;}

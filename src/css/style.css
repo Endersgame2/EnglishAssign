@@ -1,0 +1,234 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+
+body{
+  width: 100%;
+  max-width:1400px;
+  display: block;
+  margin:auto;
+  min-height: 100vh;
+  background-color: #191919;
+  font-family: sans-serif;
+}
+
+.navbar{
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9;
+  background-color: #191919;
+}
+
+#icon{
+  width: 30px;
+  cursor: pointer;
+}
+nav ul {
+  flex:1;
+  text-align: right;
+}
+.link-group{
+  list-style: none;
+  display: flex;
+}
+
+.link a{
+  color: white;
+  opacity: 0.5;
+  text-decoration:none;
+  text-transform: capitalize;
+  padding: 10px 30px;
+  margin: 0 20px ;
+  line-height: 80px;
+  transition: .5s;
+  font-size:20px ;
+}
+
+.link a:hover{
+  opacity:1;
+}
+
+.home-section{
+  width: 90%;
+  height:100vh;
+  padding:0 150px;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+.hero-heading{
+  color: white;
+  font-size: 120px;
+  text-transform:capitalize;
+  font-weight: 300;
+}
+
+.home-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+  opacity: 0.5;
+}
+
+
+.conatiner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 10px 8s00px;
+}
+
+  .contact-box{
+    max-width: 850px;
+    display: grid;
+  grid-template-columns: repeat(2 ,1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
+
+  .field {
+    color: black;
+    width: 100%;
+    padding: 0.5em 1em;
+    outline: none;
+    background-color:lightgrey;
+    font-size: 1.2em;
+    margin-bottom: 22px;
+    transition: .3s;
+  }
+
+  .contact-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 50%;
+  object-fit: cover;
+  opacity: 1;
+  }
+
+  .about-img {
+    position: absolute;
+  top: 220px;;
+  right: 0;
+  height: 80vh;
+  width: 30%;
+  object-fit: cover;
+  opacity: 1;
+  border-radius: 40%;
+  align-content:center;
+  }
+  
+  .projects-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;  
+  }
+
+  .slider{
+    margin: 50px auto;
+    width:50%;
+  }
+
+  .img-box img{
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .btn{
+    border:none;
+    outline:none;
+    background:light grey;
+    padding:10px 90px;
+    font-size: 20px;
+    color: grey;
+    cursor: pointer;
+    margin: 10px auto;
+  }
+
+  .btn:hover{
+    background-color: #191919;
+  }
+
+  .img-box:hover{
+    opacity: 0.3px;
+  }
+
+  /* !!!!!!!!!!!!!!!!!! */
+  /* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+
+.aboutheader {
+  text-align: center;
+}
+
+.aboutbody{
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: large;
+  line-height: 35px;
+}
+
+.insta{
+  width: 10%;
+  
+}
